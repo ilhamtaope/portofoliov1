@@ -42,7 +42,7 @@ body {
   font-weight: 600;
 }
 .container-fluid .navbar-toggler-icon {
-  background-image: url(/assets/icon/bar.png);
+  background-image: url(assets/icon/bar.png);
   background-size: 5rem;
   text-decoration: none;
 }
@@ -51,7 +51,7 @@ body {
 
 /* hero end */
 .hero {
-  background-image: url(/assets/images/hero.png);
+  background-image: url(assets/images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
