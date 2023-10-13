@@ -4,6 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/n1779572/public_html/ilhammuhammad.my.id/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp r- assets $DEPLOYPATH
-    - /bin/cp R- .git $DEPLOYPATH
-    - /bin/cp r- js $DEPLOYPATH
+    - /bin/cp R- .assets $DEPLOYPATH
+    - /bin/cp R- js $DEPLOYPATH
