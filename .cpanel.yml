@@ -7,3 +7,4 @@ deployment:
     - /bin/cp -r assets $DEPLOYPATH
     - /bin/cp -r js $DEPLOYPATH
     - /bin/cp -r pages $DEPLOYPATH
+    - /bin/cp -r post $DEPLOYPATH

@@ -17,6 +17,7 @@
     <!-- css start -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/css/blog.css" />
     <!-- css end -->
 
     <!-- google fonts start -->
@@ -40,7 +41,211 @@
     <!-- AOS end -->
   </head>
   <body>
-    <h1>hello world</h1>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">M<span>ilham.</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://ilhammuhammad.my.id/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- blog start -->
+    <section class="blog" id="blog">
+      <h1>Blog</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <a href="https://ilhammuhammad.my.id/post/mengenal-html.html">
+              <img
+                src="/assets/images/post/html.png"
+                class="card-img-top"
+                alt="..."
+            /></a>
+
+            <div class="card-body">
+              <h5 class="card-title">Apa itu HTML?</h5>
+              <p class="card-text">
+                <small class="text-body-secondary">Oct 16, 2023</small>
+              </p>
+              <p class="card-text">
+                HTML adalah bahasa markup yang digunakan untuk menggambarkan
+                struktur dan konten dari halaman web.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="/assets/images/post/html.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                <small class="text-body-secondary">Oct 16, 2023</small>
+              </p>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="/assets/images/post/html.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                <small class="text-body-secondary">Oct 16, 2023</small>
+              </p>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog end -->
+
+    <!-- contact start -->
+    <section class="contact" id="contact">
+      <h3>Contact Me</h3>
+      <p>Let's get in touch</p>
+      <div class="container">
+        <div class="left-column">
+          <ul>
+            <li>
+              <a class="btn" href="mailto:ilhammuh084@gmail.com"
+                ><i class="fa-solid fa-envelope"></i>Email</a
+              >
+            </li>
+            <li>
+              <a class="btn" href="https://www.linkedin.com/in/ilhammuh084/"
+                ><i class="fa-brands fa-linkedin"></i>Linkedin</a
+              >
+            </li>
+            <li>
+              <a class="btn" href="https://www.instagram.com/_ilhamuhammad_"
+                ><i class="fa-brands fa-instagram"></i>Instagram</a
+              >
+            </li>
+            <li>
+              <a class="btn" href="https://github.com/ilhamtaope"
+                ><i class="fa-brands fa-github"></i>Github</a
+              >
+            </li>
+            <li>
+              <a class="btn" href="https://discord.gg/8RjVrcHR"
+                ><i class="fa-brands fa-discord"></i>Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <form
+            action="https://script.google.com/macros/s/AKfycbzvX7bbO1wcCXlnleEKjECa5WimvwqIFwIsro28AOQ1XNKCishx0CIikyDwskllknwp3w/exec"
+            method="post"
+            autocomplete="off"
+          >
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                id="exampleInputName"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button id="submit" class="btn">Send Email</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <section class="footer">
+      <footer>
+        Copyright <span>©</span> 2023 Muhammad Ilham. All rights reserved.
+      </footer>
+    </section>
+    <!-- footer end-->
 
     <!-- script start -->
     <script
